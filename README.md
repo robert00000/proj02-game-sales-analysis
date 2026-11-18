@@ -35,6 +35,21 @@ has some spreadsheets that I can utilize.
 
 _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
 
+For vgchartz.com
+
+1.
+  - robots.txt seems to allow all agents to use it as long as it uses a certain .xml file. Which links to different websites in which bots can scrape.
+2.
+  - The terms of service explictly says. "You agree not to use any automated means, 
+  including, without limitation, agents, robots, scripts, or spiders, to access, monitor, 
+  or copy any part of our sites, except those automated means that we have approved in advance and in writing."
+  - Any means approved is allowed so using the .xml from robots.txt should be fine as it is given to us for our scripts.
+3.
+  - Anything provided is allowed. The data on the site isn't about people but charts for game sales.
+4.
+  - Scraping isn't allowed as we are given a method of getting data from the site through a .xml url.
+5.
+  The alternative isn't really going to give me any data so I wouldn't use this website as the API keys seem to be used for enterprise use.
 For GAMEEYE website
 1. 
   - robots.txt tells me that you cannot use ai bots to scrape the website. Everything is behind a signing up for the website to gain access to the api.
