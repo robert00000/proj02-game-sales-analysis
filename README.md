@@ -35,6 +35,7 @@ has some spreadsheets that I can utilize.
 
 _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
 
+For GAMEEYE website
 1. 
   - robots.txt tells me that you cannot use ai bots to scrape the website. Everything is behind a signing up for the website to gain access to the api.
   - In the comments for robots.txt it says "crawlable; everything else is either an API, behind a login, or per user UI."
