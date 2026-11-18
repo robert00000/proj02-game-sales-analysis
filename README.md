@@ -35,12 +35,39 @@ has some spreadsheets that I can utilize.
 
 _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
 
-1. robots.txt tells me that you cannot use ai bots to scrape the website. Everything is behind a signing up for the website to gain access to the api.
+1. 
+  - robots.txt tells me that you cannot use ai bots to scrape the website. Everything is behind a signing up for the website to gain access to the api.
+  - In the comments for robots.txt it says "crawlable; everything else is either an API, behind a login, or per user UI."
+2. 
+  - Terms of service doesn't say anything about scraping that I can find however it seems the website provides api keys for those who have accounts set up.
+3. 
+  - The data isn't really sensitive and it is pretty much public from what you can see provided. It isn't about people but video games and their sales.
+4. 
+  - I think I can just use an API key so it would only be one. Things can update though.
+5.
+There is an API key. I don't need to make requests to the http server.
 
 ### b. Variables of interest
 
+  - Platform
+    - Data type: String
+    - Description: The platforms that the game was released on.
+  - Genere
+    - Data type: String
+    - Description: The Genres the game belongs to.
+  - Release Date
+    - Data type: Date
+    - Description: The Date the game was released per platform or just the earliest.
+  - Console
+    - Data type: String
+    - Description: Console released on.
+  - Sales
+    - Data type: Int
+    - Description: Sales if known.
+
 _If you do not have the data yet, list the variables you plan to collect and the exact question text. Include 1) the variable name, 2) data type 3) description. Use bullet points._
 
+I don't have the data yet. 
 
 ## 4. Data example
 
