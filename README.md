@@ -1,6 +1,6 @@
-# Project 02 Proposal: <your project title>
+# Project 02 Proposal: Game sales by genre.
 
-**Team members:** <name(s)>
+**Team members:** Robert Williams
 
 See the [Project 02 instructions](https://data385.github.io/project/proj02_wholegame.html) for what goes in each section. Bullet points are great. Put any images in an `img/` folder.
 
@@ -29,6 +29,8 @@ _In 1-2 sentences, describe the data you intend to collect and how you will get 
 
 I intend to use API's from this website https://www.vgchartz.com/ as well as this website https://www.gameye.app/category/games. vgchartz gives datasets and gameye
 has some spreadsheets that I can utilize.
+
+https://steamdb.info/
 
 
 ### a. Confirm viability
@@ -99,6 +101,7 @@ _The techniques and functions you plan to use to import, wrangle, visualize, and
 
 _The models you plan to use, your response and predictor variables, and why the models fit your research question._
 
+Histograms, barcharts boxplots as well as scatterplots.
 
 ## 7. Communicate
 
