@@ -43,7 +43,7 @@ _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, l
 
 
 
-For steamdb viable
+For steamdb Status: viable
 1.
   - robots.txt Seems to have different rules for different bots. Most bots are restricted for the root directory of the url.
 2.
