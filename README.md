@@ -27,18 +27,37 @@ My response variable will be the number of sales. My predictor variable will be 
 
 _In 1-2 sentences, describe the data you intend to collect and how you will get it._
 
-I intend to use API's from this website https://www.vgchartz.com/ as well as this website https://www.gameye.app/category/games. vgchartz gives datasets and gameye
-has some spreadsheets that I can utilize.
 
+I will use an api key from steamdb to collect data from steams open sales figures for their games. The other websites are either not ideal or it is locked behind a subscription.
 https://steamdb.info/
 
+
+Turns out these websites aren't viable.
+I intend to use API's from this website https://www.vgchartz.com/ as well as this website https://www.gameye.app/category/games. vgchartz gives datasets and gameye
+has some spreadsheets that I can utilize.
 
 ### a. Confirm viability
 
 _Scraping: summarize the "Before You Scrape" checklist. Downloading: citation, link to the documentation, and how the data were originally collected. Collecting it yourself: how you are collecting it and where you are storing it._
 
-For vgchartz.com
 
+
+
+For steamdb viable
+1.
+  - robots.txt Seems to have different rules for different bots. Most bots are restricted for the root directory of the url.
+2.
+  - Data can be accessed through the websites API key. Most of the terms of use is permissable where scraping is allowed on the website if given permission. 
+  Otherwise a lot of it can be acquired from steam itself.
+3.
+  - Anything provided is allowed. There are permissions for scraping the website itself. The data on the site isn't about people but charts for game sales
+  so it shouldn't be anything sensitive.
+4.
+  - Scraping is allowed if given permission.
+5.
+  . I can scrape the website if given permission. Otherwise I can use an api key provided by steam or steamdb.
+
+For vgchartz.com not viable propietary
 1.
   - robots.txt seems to allow all agents to use it as long as it uses a certain .xml file. Which links to different websites in which bots can scrape.
 2.
@@ -52,7 +71,8 @@ For vgchartz.com
   - Scraping isn't allowed as we are given a method of getting data from the site through a .xml url.
 5.
   The alternative isn't really going to give me any data so I wouldn't use this website as the API keys seem to be used for enterprise use.
-For GAMEEYE website
+  
+For GAMEEYE website Not viable. Isn't really what i am looking for.
 1. 
   - robots.txt tells me that you cannot use ai bots to scrape the website. Everything is behind a signing up for the website to gain access to the api.
   - In the comments for robots.txt it says "crawlable; everything else is either an API, behind a login, or per user UI."
