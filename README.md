@@ -117,12 +117,28 @@ _Scraping: a URL and an annotated screenshot. Downloading: a link to your render
 
 _The techniques and functions you plan to use to import, wrangle, visualize, and explore the data, and why each is needed._
 
+I will definitely try to use facet_wrap or facet_grid to visualize different categories.
 
+  - First I will utilize steams API to import some of the data.
+  - To wrangle I haven't looked at what it entails yet but I think I will definitely have to cut some things out.
+  - Visualization would be to show different types of graphs in different categories.
+    - Compare different genres of games on steam.
+    - Perhaps compare it to different platforms on the PC market that are available if they aren't proprietary or require a 
+    subscription.
+  - A difficult I found when trying to find websites for data is that a lot of the ones that can be used are locked behind a subscription.
+  Essentially making it so that Publications, Journalists or Enterprises can utilize them.
+  - Another difficult I may face is trying to get sales for different console platforms as not all sales for all of the games have been released publically by
+  the companies that made them or the publishers.
 ## 6. Modeling
 
 _The models you plan to use, your response and predictor variables, and why the models fit your research question._
 
-Histograms, barcharts boxplots as well as scatterplots.
+My response variable is the sales.
+The predictor variables are genre, platform and region.
+I will go for a Histograms, barcharts boxplots as well as scatterplots.
+
+I think these models fit my research question well has I will be using categorical data and trying to show sales over a period of time on different platforms.
+
 
 ## 7. Communicate
 
@@ -135,4 +151,4 @@ A short slide presentation would be what I may go for.
 _Whether and how you will use AI tools: the specific tool, its use, and your data protection methods. If you won't use any, say so._
 
 
-If I use any AI it would be to find sources or websites that may have the data I need. I won't use AI to scrape or write code.
+If I use any AI it would be to find sources or websites that may have the data I need. I won't use AI to scrape or write code otherwise.
