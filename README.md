@@ -111,6 +111,7 @@ I don't have the data yet.
 
 _Scraping: a URL and an annotated screenshot. Downloading: a link to your rendered `data_management.pdf` with `glimpse()`. Collecting: a screenshot of one example row._
 
+![Example image showing data](sample-image.png)
 
 ## 5. EDA
 
